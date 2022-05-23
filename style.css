@@ -1,0 +1,48 @@
+.error-text{
+    color:red;
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+
+#registration{
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+    margin:100px auto;
+    padding: 40px;
+    background-color: #FFFAFA;
+}
+
+.form-divs{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F5F5F5;
+    margin-top: 20px;
+    
+}
+
+#username, #email, #phone, #passw, #passw2{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+}
+#checkagree{
+    margin-top: 20px;
+    cursor: pointer;
+}
+button{
+    border: none;
+    outline: none;
+    max-width: 300px;
+    width: 100%;
+    background-color: #4c94ff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+}

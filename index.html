@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="POST" id="registration">
+        <div class="form-divs">
+            <input type="text" name="username" placeholder="username" id="username">
+            
+        </div>
+        <span class="error-text" id="error_username"></span>
+
+
+        <div class="form-divs">
+            <input type="text" name="email" placeholder="Email" id="email" onkeydown="validation()">
+            
+        </div>
+        <span class="error-text" id="error_email"></span>
+
+
+        <div class="form-divs">
+            <input type="password" name="password" placeholder="password" id="passw" class="pass">
+            <i class="fa-solid fa-eye" id="toggleicon"></i>
+            
+        </div>
+        <span class="error-text" id="error_password"></span>
+
+        <div class="form-divs">
+            <input type="password" name="password2" placeholder="repeat password" id="passw2" class="pass2">
+            <i class="fa-solid fa-eye" id="toggleicon2"></i>
+            
+        </div>
+        <span class="error-text" id="error_password2"></span>
+
+        <div class="form-divs">
+            <input type="radio" name="age" id="age1">
+            <label for="age1">18-35</label>
+
+            <input type="radio" name="age" id="age2">
+            <label for="age2">35-50</label>
+
+            <input type="radio" name="age" id="age3">
+            <label for="age2">50+</label>
+            
+        </div>
+        <span class="error-text" id="error_age"></span>
+
+        <div>
+            <input type="checkbox" name="agree" id="checkagree">
+            <label for="checkagree">I agree to the terms and conditions</label>
+            
+        </div>
+        <span class="error-text" id="error_agree"></span>
+
+        <button type="submit">send</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
